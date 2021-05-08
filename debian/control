@@ -11,13 +11,13 @@ Build-Depends:
     flake8,
     gettext,
     lintian,
-    python3 (>= 3.5),
+    python3 (>= 3.6),
     python3-gdbm,
     python3-pep8-naming,
     python3-pytest
 Vcs-Git: https://github.com/Nicotine-Plus/nicotine-plus.git
 Vcs-browser: https://github.com/Nicotine-Plus/nicotine-plus
-X-Python-Version: >= 3.5
+X-Python-Version: >= 3.6
 Homepage: https://nicotine-plus.org
 Rules-Requires-Root: no
 
@@ -27,7 +27,7 @@ Depends:
     ${python3:Depends},
     ${misc:Depends},
     gir1.2-gtk-3.0,
-    python3 (>= 3.5),
+    python3 (>= 3.6),
     python3-gdbm,
     python3-gi
 Recommends:

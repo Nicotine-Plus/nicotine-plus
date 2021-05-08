@@ -196,7 +196,7 @@ functionality while keeping current with the Soulseek protocol."""
         package_data=package_data,
         scripts=["nicotine"],
         data_files=data_files,
-        python_requires='>=3.5',
+        python_requires='>=3.6',
         install_requires=['PyGObject>=3.18'],
         cmdclass={
             'update_pot': UpdatePot,
